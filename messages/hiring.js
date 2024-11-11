@@ -1,1 +1,1 @@
-console.log("hiring");
+console.log("We're hiring! https://www.mutuallyhuman.com/");
