@@ -6,6 +6,8 @@ Bun.serve({
     if (url.pathname === "/") return new Response(Bun.file("./index.html"));
     if (url.pathname === "/messages/logo.js")
       return new Response(Bun.file("./messages/logo.js"));
+    if (url.pathname === "/robots.txt")
+      return new Response(Bun.file("./robots.txt"));
     return new Response("404!");
   },
 });
